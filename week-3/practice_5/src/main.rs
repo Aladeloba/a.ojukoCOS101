@@ -7,6 +7,7 @@ fn main() {
 
     println!("");
     println!("Special character: {}", special_character);
+    println!("");
     println!("Alphabet: {}", alphabet);
     println!("Name: {} {} {}", surname, middle_name,  first_name);
 }
