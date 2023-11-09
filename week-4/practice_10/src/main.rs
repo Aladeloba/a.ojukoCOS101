@@ -7,8 +7,7 @@ fn main() {
 let c = 0;
 let d = 30;
 
-if (c>10) || (d>10)
-{
+if (c>10) || (d>10){
     println!("true");
 
 }
