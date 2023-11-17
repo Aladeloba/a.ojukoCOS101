@@ -1,6 +1,5 @@
-// Rust program to calculate the area of a
-// triangle for a given base height
-
+/* Rust program to calculate the area of a 
+triangle for a given base and height */
 
 use std::io;
 
@@ -18,6 +17,6 @@ fn main() {
 
     if base > 0.0 {
         let area:f32 = (base * height) / 2.0;
-        println!("Area of a triangle: {}", area);
+        println!("Area of a trinagle: {}", area);
     }
 }
