@@ -17,6 +17,6 @@ fn main() {
 
     if base > 0.0 {
         let area:f32 = (base * height) / 2.0;
-        println!("Area of a trinagle: {}", area);
+        println!("Area of a triangle: {}", area);
     }
 }
