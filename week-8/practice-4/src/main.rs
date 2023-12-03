@@ -12,6 +12,6 @@ fn main() {
     for i in 0..age.len()
     {
         // iterating through i on the vector
-        print!("{} is {} years old\n", name[i],age[i]);
+        printf!("{} is {} years old\n", name[i],age[i]);
     }
 }
