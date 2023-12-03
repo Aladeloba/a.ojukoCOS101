@@ -143,8 +143,7 @@ fn main() {
     let mut name = String::new();
     io::stdin().read_line(&mut name).expect("Failed to read input");
 
-    println!("Hello, {}
-            \nPlease enter your Public Service Office", name);
+    println!("\nHello, {}Please enter your Public Service Office (Office Administrator, Academic, Lawyer, Teacher)", name);
 
     let mut office_type = String::new();
     io::stdin().read_line(&mut office_type).expect("Failed to read input");
@@ -170,6 +169,6 @@ fn main() {
     }
 
 
-    println!("{}, you are a {:?}, and your staff level is {:?}", name,role,level);
+    print!("{}, you are a {}, and your staff level is {}", name.trim(),role[0],level[0]);
 
 }
