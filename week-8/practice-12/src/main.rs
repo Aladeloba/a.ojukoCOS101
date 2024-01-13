@@ -15,3 +15,4 @@ fn main() {
 
     println!("Changed slice = {:?}", sliced_colors);
 }
+

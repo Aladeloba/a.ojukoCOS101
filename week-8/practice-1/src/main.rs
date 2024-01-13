@@ -14,3 +14,4 @@ fn main() {
   println!("\nThe length of vec macro is: {}",v.len());
 
 }
+

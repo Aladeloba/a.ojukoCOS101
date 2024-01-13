@@ -1,4 +1,4 @@
-use std::io;
+  use std::io;
 
 fn main() {
   println!("Input the value of n");
@@ -15,3 +15,5 @@ for lhs in 1..=input1 {
 }
 
 }
+
+

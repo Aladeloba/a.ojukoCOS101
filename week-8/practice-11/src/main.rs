@@ -24,3 +24,4 @@ fn main() {
     // This means the slice starts  from index 0 and goes up to index 5 (exclusive)
     println!("index 0 to index 5 sliced = {:?}", slice4);
 }
+

@@ -1,0 +1,20 @@
+Company Name: Cadbury Nigeria Plc
+Company Liabilities: 5500000
+5% of Percentage Leverage: 3.2%
+
+Company Name: Champion Breweries Plc
+Company Liabilities: 8000000
+5% of Percentage Leverage: 3.4%
+
+Company Name: Flour Mills Nigeria Plc
+Company Liabilities: 4000000
+5% of Percentage Leverage: 4.4%
+
+Company Name: Nestle Nigeria Plc
+Company Liabilities: 1500000
+5% of Percentage Leverage: 4.1%
+
+Company Name: Honeywell Nigeria Plc
+Company Liabilities: 9000000
+5% of Percentage Leverage: 3.7%
+

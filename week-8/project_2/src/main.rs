@@ -49,6 +49,8 @@ fn main() {
     let person_info = (name,age,gender,degree_class,experience);
     people_info.push(person_info);
 
+    //For the frist person interviewed, it saves the experience years then for every other person, then checks to see if their experience years is greater than the original person
+    
     if let Some(index) = highest_experience {
         if experience > people_info[index].4 {
             highest_experience = Some(people_info.len() - 1);

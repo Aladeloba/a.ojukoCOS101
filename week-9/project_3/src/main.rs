@@ -21,23 +21,24 @@ fn main() {
 
     for element in &header {
         file.write_all(element.as_bytes()).expect("Failed to write to file");
-        file.write_all(b"\t\t").expect("Failed to write to file");
+        file.write_all(b"\t\t\t").expect("Failed to write to file");
     }
         file.write_all(b"\n").expect("Failed to write to file");
 
     for person in &info {
         file.write_all(person.0.to_string().as_bytes()).expect("Failed to write to file");
-        file.write_all(b"\t\t").expect("Failed to write to file");
+        file.write_all(b"\t\t\t").expect("Failed to write to file");
 
         file.write_all(person.1.as_bytes()).expect("Failed to write to file");
-        file.write_all(b"\t\t").expect("Failed to write to file");
+        file.write_all(b"\t\t\t").expect("Failed to write to file");
 
         file.write_all(person.2.as_bytes()).expect("Failed to write to file");
-        file.write_all(b"\t\t").expect("Failed to write to file");
+        file.write_all(b"\t\t\t").expect("Failed to write to file");
 
         file.write_all(person.3.as_bytes()).expect("Failed to write to file");
 
         file.write_all(b"\n").expect("Failed to write to file");
+        
     }
 
 
