@@ -198,6 +198,7 @@ fn main() {
 
     // Header information for the file
     let header = vec!["Company", "Leverages(%)", "Date", "Assets", "Liabilities"];
+    println!("{:?}", header[]);
 
     // Write header information to file
     for item in &header {
